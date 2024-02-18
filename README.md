@@ -1,4 +1,6 @@
-# Hdtest1
+# BlockStay 
+
+Conexión con wallet de Solana para solución de BlockStay. Dapp para el arrendamiento de inmuebles en estancias cortas que elimina procesos ineficientes e inseguros durante reservas, pagos y reclamaciones.
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
