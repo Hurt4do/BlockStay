@@ -11,4 +11,5 @@ import { BobTest } from './bob.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  title='test';
 }
