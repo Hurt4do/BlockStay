@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
-import { BobTest } from './bob.component';
+
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule, BobTest],
-  selector: 'hdtest1-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  imports: [RouterModule],
+  selector: 'test1-root',
+  template: `    
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+    <h1>Inicia sesión</h1>
+    <button mat-raised-button>Conecta tu billetera</button>
+  </div>
+  `
 })
-export class AppComponent {
-  title='test';
-}
+export class AppComponent { }
