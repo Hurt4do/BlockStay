@@ -16,4 +16,7 @@ import { HdWalletMultiButtonComponent } from '@heavy-duty/wallet-adapter-materia
  
   `
 })
-export class AppComponent { }
+export class AppComponent {
+  private readonly _shyftApiService = inject(ShyftApiService);
+
+}
