@@ -12,7 +12,7 @@ export class ShyftApiService {
         if (!publicKey) {
             return of(null);
         }
-        const url = new URL('https://rpc.shyft.to?api_key=773DT6pUIKFQSCob');
+        const url = new URL('https://rpc.shyft.to/sol/v1/wallet/token_balance');
         url.searchParams.set('network', 'mainnet-beta');
         url.searchParams.set('wallet', publicKey);
         url.searchParams.set('token', this._mint);
